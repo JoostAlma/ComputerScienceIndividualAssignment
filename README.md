@@ -19,7 +19,7 @@ Data transformation and normalization, model words, inputmatrix, minhashing, sig
 Both outputs are in the form of:
 perfLSH = [PQ, PC, F1star, t, fracOfComp]
 perfSim = [PQSim, PCSim, F1Sim, t, fracOfComp]
-Where PQ = Pair Quality, PC = Pair Completeness, F1 is the harmonic mean of precision and recall, t = approximated threshold as a function of the number of bands b and rows r, and fracOfCompl = fraction of comparisons.
+Where PQ = Pair Quality, PC = Pair Completeness, F1 is the harmonic mean of precision and recall, t = approximated threshold as a function of the number of bands b and rows r, and fracOfCompl = fraction of comparisons. Note that the function prints certain statements such as "Ended signaturematrix computation", with a time stamp. This was for my to track the progress of the function.
 
 
 For regular LSH, no annotation is made, except for the F1 measure: F1star.
